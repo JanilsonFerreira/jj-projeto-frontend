@@ -10,8 +10,8 @@ const AppRoutes = () => {
         <HashRouter>
             <Routes>
                 <Route path="/" element={<Homepage />} />
-                <Route path="/products" element={<ProductListingPage />} />
-                <Route path="/product" element={<ProductViewPage />} />
+                <Route path="/jj-projeto-frontend/products" element={<ProductListingPage />} />
+                <Route path="/jj-projeto-frontend/product" element={<ProductViewPage />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </HashRouter>
