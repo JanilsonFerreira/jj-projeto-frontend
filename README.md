@@ -64,6 +64,10 @@ Aplicar os conhecimentos aprendidos ao longo do curso, criando um site baseado e
    http://localhost:5173/
    ```
 
+# Deploy do projeto
+
+...
+
 # Autores
 
 **Janilson Ferreira**<br />
