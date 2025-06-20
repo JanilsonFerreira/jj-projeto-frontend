@@ -35,11 +35,11 @@ Aplicar os conhecimentos aprendidos ao longo do curso, criando um site baseado e
 
 # Tecnologias
 
-[React](https://github.com/facebook/react)
-[Bootstrap](https://github.com/twbs/bootstrap)
-[React-Bootstrap](https://github.com/react-bootstrap/react-bootstrap)
-[React-Router](https://github.com/remix-run/react-router)
-[Sass](https://github.com/sass/sass)
+[React](https://github.com/facebook/react)<br />
+[Bootstrap](https://github.com/twbs/bootstrap)<br />
+[React-Bootstrap](https://github.com/react-bootstrap/react-bootstrap)<br />
+[React-Router](https://github.com/remix-run/react-router)<br />
+[Sass](https://github.com/sass/sass)<br />
 [Vite](https://github.com/vitejs/vite)
 
 # Como rodar o projeto
@@ -66,5 +66,5 @@ Aplicar os conhecimentos aprendidos ao longo do curso, criando um site baseado e
 
 # Autores
 
-**Janilson Ferreira**
+**Janilson Ferreira**<br />
 **Janaina Sousa**
