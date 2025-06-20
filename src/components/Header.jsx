@@ -64,19 +64,19 @@ function Header() {
                   </svg>
                 </Button>
               </InputGroup>
-              <Nav.Link href="/cadastro" onClick={() => setModalShow(true)} className="ds-navlink p-2 text-decoration-underline d-none d-lg-block">Cadastre-se</Nav.Link>
-              <Button href="/login" id="botao-login" onClick={() => setModalShow(true)} className="ds-botao-primary p-2 d-none d-lg-block">Entrar</Button>
+              <Nav.Link onClick={() => setModalShow(true)} className="ds-navlink p-2 text-decoration-underline d-none d-lg-block">Cadastre-se</Nav.Link>
+              <Button id="botao-login" onClick={() => setModalShow(true)} className="ds-botao-primary p-2 d-none d-lg-block">Entrar</Button>
               <div className="m-2 position-relative">
-                <Nav.Link href="#carrinho" onClick={() => setModalShow(true)}><img src={IconeCarrinho} alt="Carrinho" /></Nav.Link>
+                <Nav.Link onClick={() => setModalShow(true)}><img src={IconeCarrinho} alt="Carrinho" /></Nav.Link>
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle ds-fundo-carrinho-numero">2</span>
               </div>
             </Stack>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto p-2">
                 <Nav.Link href="/" className="ds-navlink">Home</Nav.Link>
-                <Nav.Link href="/products" className="ds-navlink">Produtos</Nav.Link>
-                <Nav.Link href="/categorias" className="ds-navlink">Categorias</Nav.Link>
-                <Nav.Link href="/meus-pedidos" className="ds-navlink">Meus&nbsp;Pedidos</Nav.Link>
+                <Nav.Link href="/jj-projeto-frontend/products" className="ds-navlink">Produtos</Nav.Link>
+                <Nav.Link href="/jj-projeto-frontend/categorias" className="ds-navlink">Categorias</Nav.Link>
+                <Nav.Link href="/jj-projeto-frontend/meus-pedidos" className="ds-navlink">Meus&nbsp;Pedidos</Nav.Link>
                 <InputGroup>
                   <Form.Control
                     placeholder="Pesquisar produto..."
