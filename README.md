@@ -46,7 +46,7 @@ Aplicar os conhecimentos aprendidos ao longo do curso, criando um site baseado e
 
 1. Clonar o repositório:
    ```bash
-   git clone https://github.com/x/y.git
+   git clone https://github.com/JanilsonFerreira/jj-projeto-frontend.git
    ```
 
 2. Instalar as dependências do Node.js:
