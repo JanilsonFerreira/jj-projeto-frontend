@@ -1,0 +1,101 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+$cores_primary: #C92071;
+$cores_secondary: #B5B6F2;
+$cores_tertiary: #991956;
+$cores_error: #EE4266;
+$cores_success: #52CA76;
+$cores_warning: #F6AA1C;
+
+$cores_dark-gray: #1F1F1F;
+$cores_dark-gray-2: #474747;
+$cores_dark-gray-3: #666666;
+$cores_light-gray: #8F8F8F;
+$cores_light-gray-2: #CCCCCC;
+$cores_light-gray-3: #F5F5F5;
+$cores_white: #FFFFFF;
+
+.ds-botao-primary {color: $cores_white!important; font-size: 14px!important; font-weight: bold!important; width: 114px!important; 
+    height: 40px!important; border-radius: 4px!important; background-color: $cores_primary!important; border-color: $cores_primary!important;}
+.ds-botao-primary:hover {background-color: $cores_tertiary!important; border-color: $cores_tertiary!important;}
+.ds-botao-primary:active {background-color: $cores_tertiary!important; border-color: $cores_tertiary!important;}
+.ds-botao-primary:focus {background-color: $cores_tertiary!important; border-color: $cores_tertiary!important;}
+
+.ds-navlink:hover {color: $cores_primary!important; text-decoration: underline!important;}
+.ds-navlink:active {color: $cores_primary!important; text-decoration: underline!important;}
+.ds-navlink:focus {color: $cores_primary!important; text-decoration: underline!important;}
+
+.ds-navicon:hover {background: $cores_primary!important;}
+.ds-navicon:active {background: $cores_primary!important;}
+.ds-navicon:focus {background: $cores_primary!important;}
+
+.ds-fundo-cabecalho {background: $cores_white!important;}
+.ds-fundo-carrinho-numero {background: $cores_primary!important;}
+.ds-fundo-barra-pesquisa {color: $cores_dark-gray!important; background: $cores_light-gray-3!important;}
+.ds-fundo-rodape {background: $cores_dark-gray!important; color: $cores_light-gray-3!important;}
+.ds-fundo-conteudo {background: $cores_light-gray-3!important;}
+
+.ds-carrossel-titulo {font-size: 36px!important; font-weight: bold!important;}
+.ds-carrossel-subtitulo {color: $cores_primary!important; font-size: 20px!important; font-weight: bold!important;}
+.ds-carrossel-descricao {color: $cores_dark-gray-3!important;}
+.ds-carrossel-imagem {border-radius: 10px!important; width: 80%!important; display: block!important; margin: auto!important; 
+    padding-bottom: 80px!important; transform: rotate(-25deg)!important;}
+.ds-carrossel-indicador .carousel-indicators button {background: $cores_light-gray!important; width: 16px!important; height: 16px!important; 
+    border: 1px solid transparent !important; border-radius: 50%!important; position: relative!important; bottom: -50px!important;}
+.ds-carrossel-indicador .carousel-indicators .active {background: $cores_primary!important;}
+
+.ds-coldestaque1-titulo {font-size: 28px!important; font-weight: bold!important;}
+.ds-coldestaque1-produto {position: relative!important; transition: transform 250ms!important;}
+.ds-coldestaque1-produto:hover {transform: scale(110%)!important;}
+.ds-coldestaque1-produto img {width: 100%!important; border: 1px solid transparent !important; border-radius: 10px!important;}
+.ds-coldestaque1-produto button {color: $cores_primary!important; font-size: 16px!important; font-weight: bold!important; width: 114px!important; 
+    height: 40px!important; border-radius: 4px!important; background-color: $cores_white!important; border-color: $cores_white!important; 
+    position: absolute!important; bottom: 15%!important; left: 7.5%!important;}
+.ds-coldestaque1-produto button:hover {color: $cores_white!important; background-color: $cores_primary!important; border-color: $cores_primary!important;}
+.ds-coldestaque1-produto button:active {color: $cores_white!important; background-color: $cores_primary!important; border-color: $cores_primary!important;}
+.ds-coldestaque1-produto button:focus {color: $cores_white!important; background-color: $cores_primary!important; border-color: $cores_primary!important;}
+.ds-coldestaque1-desconto {color: $cores_dark-gray!important; background: $cores_success!important; font-weight: bold!important; 
+    position: absolute!important; top: 7.5%!important; left: 7.5%!important;}
+
+.ds-coldestaque2-titulo {font-size: 28px!important; font-weight: bold!important; text-align: center!important;}
+.ds-coldestaque2-categoria {position: relative!important; transition: color 250ms, transform 250ms, filter 250ms!important; 
+    color: $cores_dark-gray!important; transform: scale(80%)!important; filter: grayscale(100%)!important;}
+.ds-coldestaque2-categoria:hover {color: $cores_primary!important; transform: scale(100%)!important; filter: grayscale(0%)!important;}
+.ds-coldestaque2-categoria img {width: 100%!important; border: 1px solid transparent !important; border-radius: 10px!important; 
+    background: $cores_white!important; border-radius: 50%!important;}
+.ds-coldestaque2-categoria img:hover {filter: grayscale(0%)!important;}
+.ds-coldestaque2-categoria p {font-size: 18px!important; font-weight: bold!important; text-align: center!important; margin-top: 10px!important;}
+
+.ds-coldestaque3-titulo {font-size: 28px!important; font-weight: bold!important; text-align: center!important;}
+.ds-coldestaque3-produto {background: $cores_white!important; position: relative!important; transition: transform 250ms; padding: 20px!important; 
+    line-height: 1.0!important; border-radius: 10px!important;}
+.ds-coldestaque3-produto:hover {transform: scale(110%)!important;}
+.ds-coldestaque3-produto img {width: 100%!important; transform: rotate(-20deg)!important; margin-bottom: 40px!important;}
+.ds-coldestaque3-desconto {color: $cores_dark-gray!important; background: $cores_success!important; font-weight: bold!important; 
+    position: absolute!important; top: 7.5%!important; left: 7.5%!important;}
+.ds-coldestaque3-categoria {color: $cores_light-gray-2!important; font-weight: bold!important;}
+.ds-coldestaque3-nome {color: $cores_dark-gray!important; font-size: 20px!important; overflow: hidden!important; 
+    white-space: nowrap!important; text-overflow: ellipsis!important;}
+.ds-coldestaque3-preco {color: $cores_dark-gray!important; font-size: 20px!important;}
+.ds-coldestaque3-preco span {color: $cores_light-gray!important; font-size: 20px!important; text-decoration: line-through!important;}
+
+.ds-coldestaque4-oferta {transition: transform 250ms;}
+.ds-coldestaque4-oferta:hover {transform: scale(110%)!important;}
+.ds-coldestaque4-oferta-imagem {border-radius: 10px!important; width: 80%!important; display: block!important; margin: auto!important; 
+    padding-bottom: 80px!important;}
+
+.ds-listaproduto-titulo {font-size: 20px!important;}
+.ds-listaproduto-titulo span {font-weight: bold!important;}
+.ds-listaproduto-conteudo {font-size: 16px!important;}
+.ds-listaproduto-conteudo span {font-weight: bold!important;}
+.form-check .form-check-input:checked {background: $cores_primary!important;}
+
+.ds-productview-rota {color: $cores_dark-gray-3!important; font-size: 18px!important; font-weight: bold!important;}
+.ds-productview-imagem {width: 100%!important; background: $cores_secondary!important; border-radius: 10px!important; 
+    padding: 60px!important;}
+.ds-productview-nome {font-size: 32px!important; font-weight: bold!important;}
+.ds-productview-detalhes {color: $cores_light-gray!important;}
+.ds-productview-preco {color: $cores_light-gray!important; font-size: 18px!important; font-weight: bold!important;}
+.ds-productview-preco span {color: $cores_dark-gray!important; font-size: 28px!important;}
+.ds-productview-descricao {color: $cores_dark-gray-3!important; font-size: 18px!important;}
+.ds-productview-descricao span {font-weight: bold!important;}
