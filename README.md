@@ -67,4 +67,4 @@ Aplicar os conhecimentos aprendidos ao longo do curso, criando um site baseado e
 # Autores
 
 **Janilson Ferreira**<br />
-**Janaina Sousa**
+**Jainara Sousa**
