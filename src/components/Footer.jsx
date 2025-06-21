@@ -31,20 +31,20 @@ function Footer() {
                 <Stack direction="horizontal" gap={5}>
                     <div>
                         <h5 className="font-weight-bold">Informação</h5>
-                        <Nav.Link href="/about" className="ds-navlink"><p>Sobre&nbsp;Drip&nbsp;Store</p></Nav.Link>
-                        <Nav.Link href="/security" className="ds-navlink"><p>Segurança</p></Nav.Link>
-                        <Nav.Link href="/wishlist" className="ds-navlink"><p>Wishlist</p></Nav.Link>
-                        <Nav.Link href="/blog" className="ds-navlink"><p>Blog</p></Nav.Link>
-                        <Nav.Link href="/work-with-us" className="ds-navlink"><p>Trabalhe&nbsp;conosco</p></Nav.Link>
-                        <Nav.Link href="/my-cart" className="ds-navlink"><p>Meus&nbsp;Pedidos</p></Nav.Link>
+                        <Nav.Link href="#/about" className="ds-navlink"><p>Sobre&nbsp;Drip&nbsp;Store</p></Nav.Link>
+                        <Nav.Link href="#/security" className="ds-navlink"><p>Segurança</p></Nav.Link>
+                        <Nav.Link href="#/wishlist" className="ds-navlink"><p>Wishlist</p></Nav.Link>
+                        <Nav.Link href="#/blog" className="ds-navlink"><p>Blog</p></Nav.Link>
+                        <Nav.Link href="#/work-with-us" className="ds-navlink"><p>Trabalhe&nbsp;conosco</p></Nav.Link>
+                        <Nav.Link href="#/my-cart" className="ds-navlink"><p>Meus&nbsp;Pedidos</p></Nav.Link>
                     </div>
                     <div>
                         <h5 className="font-weight-bold">Categorias</h5>
-                        <Nav.Link href="/products/camisetas" className="ds-navlink"><p>Camisetas</p></Nav.Link>
-                        <Nav.Link href="/products/calcas" className="ds-navlink"><p>Calças</p></Nav.Link>
-                        <Nav.Link href="/products/bone" className="ds-navlink"><p>Bonés</p></Nav.Link>
-                        <Nav.Link href="/products/headphones" className="ds-navlink"><p>Headphones</p></Nav.Link>
-                        <Nav.Link href="/products/tenis" className="ds-navlink"><p>Tênis</p></Nav.Link>
+                        <Nav.Link href="#/products/camisetas" className="ds-navlink"><p>Camisetas</p></Nav.Link>
+                        <Nav.Link href="#/products/calcas" className="ds-navlink"><p>Calças</p></Nav.Link>
+                        <Nav.Link href="#/products/bone" className="ds-navlink"><p>Bonés</p></Nav.Link>
+                        <Nav.Link href="#/products/headphones" className="ds-navlink"><p>Headphones</p></Nav.Link>
+                        <Nav.Link href="#/products/tenis" className="ds-navlink"><p>Tênis</p></Nav.Link>
                         <p>&nbsp;</p>
                     </div>
                 </Stack>

@@ -12,7 +12,7 @@ function NotFound() {
             <h2>Nossa loja ainda está sendo construida, volte mais tarde!</h2>
         </div>
         <div className="ds-fundo-conteudo p-5 d-flex justify-content-center">
-            <Button href="/" id="botao-voltar-home" className="ds-botao-primary p-2">Voltar</Button>
+            <Button href="#/" id="botao-voltar-home" className="ds-botao-primary p-2">Voltar</Button>
         </div>
       </Layout>
   )
