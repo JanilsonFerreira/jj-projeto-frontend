@@ -51,7 +51,7 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-auto" />
         <Stack direction="vertical">
             <Stack direction="horizontal">
-              <Navbar.Brand href="/" className="p-2"><Logo /></Navbar.Brand>
+              <Navbar.Brand href="#/" className="p-2"><Logo /></Navbar.Brand>
               <InputGroup className="w-50">
                 <Form.Control
                   placeholder="Pesquisar produto..."
@@ -73,10 +73,10 @@ function Header() {
             </Stack>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto p-2">
-                <Nav.Link href="/" className="ds-navlink">Home</Nav.Link>
-                <Nav.Link href="/jj-projeto-frontend/products" className="ds-navlink">Produtos</Nav.Link>
-                <Nav.Link href="/jj-projeto-frontend/categorias" className="ds-navlink">Categorias</Nav.Link>
-                <Nav.Link href="/jj-projeto-frontend/meus-pedidos" className="ds-navlink">Meus&nbsp;Pedidos</Nav.Link>
+                <Nav.Link href="#/" className="ds-navlink">Home</Nav.Link>
+                <Nav.Link href="#/products" className="ds-navlink">Produtos</Nav.Link>
+                <Nav.Link href="#/categorias" className="ds-navlink">Categorias</Nav.Link>
+                <Nav.Link href="#/meus-pedidos" className="ds-navlink">Meus&nbsp;Pedidos</Nav.Link>
                 <InputGroup>
                   <Form.Control
                     placeholder="Pesquisar produto..."
@@ -89,8 +89,8 @@ function Header() {
                     </svg>
                   </Button>
                 </InputGroup>
-                <Nav.Link href="/cadastro" onClick={() => setModalShow(true)} className="ds-navlink d-lg-none">Cadastre-se</Nav.Link>
-                <Nav.Link href="/login" onClick={() => setModalShow(true)} className="ds-navlink d-lg-none">Entrar</Nav.Link>
+                <Nav.Link onClick={() => setModalShow(true)} className="ds-navlink d-lg-none">Cadastre-se</Nav.Link>
+                <Nav.Link onClick={() => setModalShow(true)} className="ds-navlink d-lg-none">Entrar</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Stack>
