@@ -66,7 +66,7 @@ Aplicar os conhecimentos aprendidos ao longo do curso, criando um site baseado e
 
 # Deploy do projeto
 
-[https://github.com/JanilsonFerreira/jj-projeto-frontend](https://github.com/JanilsonFerreira/jj-projeto-frontend)<br />
+[https://janilsonferreira.github.io/jj-projeto-frontend/](https://janilsonferreira.github.io/jj-projeto-frontend/)<br /><br />
 [Script de deploy de referência](https://github.com/ErickKS/vite-deploy)<br />
 Se usa o componente "HashRouter" da livraria [React-Router](https://github.com/remix-run/react-router) para que o deploy funcione corretamente no GitHub Pages.
 
