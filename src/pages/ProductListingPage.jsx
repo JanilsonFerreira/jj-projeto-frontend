@@ -27,7 +27,7 @@ function ProductListingPage() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col md={2} lg={2}>
                         <Stack direction="vertical" className="pt-5" gap={3}>
                             <p className="ds-listaproduto-conteudo"><span>Filtrar por</span></p>
                             <div>

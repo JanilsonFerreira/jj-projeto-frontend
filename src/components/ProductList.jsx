@@ -33,7 +33,7 @@ function ProductList() {
   return (
       <>
         <div className="ds-fundo-conteudo p-5">
-          <Row xs={2} sm={2} md={3} lg={4}>
+          <Row xs={1} sm={1} md={3} lg={4}>
             <Col>
               <Link to="/product">
                 <div className="ds-coldestaque3-produto mb-5">
