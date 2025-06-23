@@ -65,7 +65,7 @@ function ProductListingPage() {
                             </div>
                         </Stack>
                     </Col>
-                    <Col xs={10}>
+                    <Col md={10} lg={10}>
                         <ProductList />
                     </Col>
                 </Row>
