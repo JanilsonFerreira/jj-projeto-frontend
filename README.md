@@ -74,5 +74,5 @@ Se usa o componente "HashRouter" da livraria [React-Router](https://github.com/r
 
 # Autores
 
-**Janilson Ferreira**<br />
-**Jainara pereira de Sousa**
+**Janilson Ferreira Costa**<br />
+**Jainara Pereira de Sousa**
